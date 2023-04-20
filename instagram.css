@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+body{
+   margin-left: 83px;
+}
+#celular{
+    display: block;
+    margin: auto;
+    margin-left: 129px;
+}
+#bra{
+    height: 847px;
+    width: 853px;
+}
+#pre{
+    margin-left: -599px;
+}
+#app{
+    margin-top: -715px;
+    margin-left: 865px;
+    height: 402px;
+    width: 372px;
+    border-width: 1px;
+    border-color: #00000047;
+    border-style: solid;
+}
+#app>p{
+    color: red;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo{
+    margin-left: 75px;
+    height: 140px;
+    width: 238px;
+    margin-top: 13px;
+}
+hr{
+    border-color: #00000012;
+    margin-top: -21px;
+}
+#app button{
+    margin-top: -5px;
+    margin-left: 49px;
+    width: 82px;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: #48a0fe;
+}
+#app button a{
+    color: white;
+    text-decoration: none;
+}
+#app button:hover{
+    background-color: #63adfc;
+}
+#mlk{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+#mlk img{
+    width: 42px;
+}
+#mk{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 41px;
+}
+#mk img{
+    width: 42px;
+}
+.tt{
+    margin-left: -30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#se{
+    border-color: #00000012;
+    margin-bottom: 29px;
+}
+#azulaoletra{
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 122px;
+    text-decoration: none;
+    color: #48a0fe;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#azulaoletra:hover{
+    color: #151534;
+}
+#ultimo{
+    padding: 10px;
+    margin-top: 12px;
+    margin-left: 865px;
+    height: 45px;
+    width: 353px;
+    border-width: 1px;
+    border-color: #00000047;
+    border-style: solid;
+}
+.letra{
+    margin: 31px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #48a0fe;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main p{
+    margin-left: 254px;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+#playt{
+    margin-left: 910px;
+    height: 44px;
+    width: 136px;
+}
+#micro{
+    margin-right: 300px;
+    height: 44px;
+    width: 136px;   
+}

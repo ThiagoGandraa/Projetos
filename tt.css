@@ -1,0 +1,331 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Jogo';
+    src: url('8-bit\ Arcade\ In.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'golden';
+    src: url('..//Golden\ Age\ Shad.ttf');
+}
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('https://images.pexels.com/photos/1761279/pexels-photo-1761279.jpeg?auto=compress&cs=tinysrgb&w=1600');   
+}
+header{
+    width: 100%;
+    top: -2px;
+    position: sticky;
+    border-bottom: #ffffff6b solid 1px;
+    height: 140px;
+    padding: 30px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+@media(max-width:980px){
+    .menu-header > .menu{
+        display: none;
+    }
+}
+header img{
+    margin-left: 100px;
+    margin-top: -7px;
+    height: 93px;
+}
+header nav{
+    margin-top: -87px;
+    margin-right: 250px;
+    justify-content: right;
+    align-items: center;
+    display: flex;
+}
+header a{
+    margin: 20px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    transition-duration: .3s;
+    text-decoration: underline 4px;
+}
+main{
+    background-attachment: fixed;
+    margin-bottom: 340px;
+    margin-left: 250px;
+    padding: 30px;
+    margin-top: 100px;
+}
+main h1{
+    position: relative;
+    color: white;
+    font-size: 50px;
+}
+/*Esses comando a baixo é pra eu poder colocar as animações no meu h1*/
+main h1::before{
+    margin-top: -30px;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    content: attr(data-text);
+    color: white;
+    /*Essas duas linha a baixo é onde acontece o meus efeitos de digitações*/
+    border-right: 5.5px solid white;
+    animation: animatexto 4s linear infinite;
+
+    filter: drop-shadow(0px 0px 6px white);
+}
+/*Esse KeyFrames a baixo é pra por o efeito de digitação no meu h1*/
+@keyframes animatexto{
+    0%,10%,50%{
+        width: 0;
+    }
+    70%,90%{
+        width: 40%;
+    }
+}
+main h2{
+    line-height: 110px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+}
+main button{
+    position: relative;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style: none;
+    height: 83px;
+    width: 499px;
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    background-color: #5a4040;
+    border-radius: 50px;
+}
+main a button:hover{
+    filter: drop-shadow(0px 0px 10px black);
+    transform: scale(1.1);
+    color: black;
+    cursor: pointer;
+}  
+
+main img{
+    margin-left: 715px;
+    margin-top: 7px;
+    height: 400px;
+    animation: float 3s ease-in-out infinite;
+}
+@keyframes float{
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+}
+#elementoSobremin{
+    margin-left: -58px;
+    margin-top: -392px;
+}
+#sobreMin{
+    position: relative;
+    box-shadow: 0px -1px 18px cadetblue;
+    padding: 30px;
+    height: 1200px;
+    width: 100%;    
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://images.alphacoders.com/265/265693.png');
+}
+#sobreMin h1{
+    text-shadow: 0px 0px 19px bisque;
+    margin-top: -9px;
+    text-align: center;
+    font-family: 'golden';
+    font-size: 70px;
+    color: #ffffffd1;
+    margin-left: 30px;
+}
+#sobreMin p{
+    margin: auto;
+    width: 900px;
+    height: 700px;
+    border-style: solid;
+    border-color: white;
+    backdrop-filter: blur(60px);
+    overflow: hidden;
+    text-align: justify;
+    font-style: italic;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 100px;
+    line-height: 70px;
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sobreMin img{
+    margin-left: 838px;
+    height: 200px;
+}
+#habilidades{
+    height: 1000px;
+    padding: 30px;
+    background-color: #5a4040;
+}
+#habilidades h1{
+    margin-bottom: 105px;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'golden';
+    text-shadow: 0px 0px 19px bisque;
+}
+.efeito{
+    background-color: white;
+    overflow: hidden;
+    margin: 29px;
+    height: 300px;
+    width: 300px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 50%;
+}
+.efeito:hover{
+    background-image: url('https://images.pexels.com/photos/325703/pexels-photo-325703.jpeg?auto=compress&cs=tinysrgb&w=1600');
+    padding: 40px;
+    border-radius: 20px;
+    width: 700px;
+    height: 700px;
+}
+.efeito h2{
+    margin-top: 700px;
+    filter: drop-shadow(0px 0px 10 black);
+    color: white;
+    font-size: 80px;
+    font-family: 'jogo';
+}
+.efeito:hover{
+    background-attachment: fixed;
+    transition-duration: 2s;
+}
+.efeito:hover h2{
+    transition-duration: 4s;
+    margin-top: -1px;
+}
+.efeito p{
+    text-align: justify;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.efeito img{
+    margin-left: 500px;
+    height: 100px;
+}
+#jss img{
+    margin-right: 300px;
+    width: 100px;
+    height: 100px;
+}
+.efeito  #css :hover{
+    background-image: url('https://images.pexels.com/photos/3705687/pexels-photo-3705687.jpeg?auto=compress&cs=tinysrgb&w=1600');
+}
+#card1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#trecho{
+    filter: drop-shadow(11px -3px 11px bisque);
+    margin-top: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#projetos{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 900px;
+    padding: 30px;
+    background-color: black;
+}
+#projetos h1{
+    filter: drop-shadow(0px 0px 10px white);
+    font-size: 100px;
+    font-family: 'jogo';
+    color: white;
+}
+.projetostg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 50px;
+    margin-top: 200px;
+    width: 400px;
+    height: 400px;
+    border-color: white;
+    border-style: solid;
+}
+.projetostg:hover{
+    transform: scale(1.1);
+    transition-duration: .4s;
+    box-shadow: 4px -6px 16px #ffff00d6;
+}
+#barbearia{
+    height: 330px;
+    margin-top: 17px;   
+}
+#insta{
+    height: 200px;
+}
+#googless{
+    height: 200px;
+}
+footer{
+    position: relative;
+    border-top: groove white 1px;
+    background-color: #3c2929;
+    height: 190px;
+    padding: 30px;   
+}
+footer h2{
+    align-items: center;
+    display: flex;
+    margin-left: 200px;
+    line-height: 50px;
+    font-size: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ion-icon {
+    color: white;
+    margin: 16px;
+    margin-top: -107px;
+    font-size: 64px;
+}
+ion-icon:hover{
+    cursor: pointer;
+}
+#iconess{
+    margin-right: 200px;
+    justify-content: right;
+    align-items: center;
+    display: flex;
+}

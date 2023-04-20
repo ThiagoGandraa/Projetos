@@ -1,0 +1,214 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Anton');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+}
+#sobre{
+    height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 30px;
+    background-image: url('https://www.guiadasemana.com.br/contentFiles/image/opt_w1280h960/2017/02/FEA/49393_shutterstock-barbearia.jpg');
+}
+#map{
+    padding: 10px; 
+}
+#map>h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 60px;
+}
+#map p{
+    font-size: 20px;
+    margin: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#map img{
+    margin: 33px;
+    width: 223px;
+    height: 199px;
+}
+#map h2{    
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+#map p{
+    text-shadow: 1px 1px 9px #000000d7;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#map iframe{
+    display: block;
+    margin: auto;
+    height: 377px;
+    width: 900px;
+}
+#topo{
+    background-attachment: fixed;
+    align-items: center;
+    display: flex;
+    padding-bottom: 50px;
+    padding: 0px;
+    background-color: orange;
+}
+#se{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 10px;
+}
+ion-icon {
+    margin: 20px;
+    color: white;
+    font-size: 24px;
+}
+header{
+    position: sticky;
+    top: -1px;
+    background-attachment: fixed;
+    padding-bottom: 66px;
+    background-color: #f7f7df;
+}
+header>h1{
+    text-shadow:5px 5px 5px white;
+    font-size: 44px;
+    margin-top: -111px;
+    margin-left: 260px;
+    font-family: 'Anton', sans-serif;
+}
+header img{
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 150px;
+    width: 162px;
+}
+#seg{
+    margin-right: 100px;
+    margin-top: -69px;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lin{
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+.lin:hover{
+    transition-duration: .5s;
+    text-decoration: underline black;
+}
+#bor{
+    margin: 7px;
+    border-style: solid;
+}
+main p{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main h3{
+    
+    margin: 30px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main h4{
+    margin-top: 20px;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+} 
+.imm{
+    border-radius: 50vh;    
+    display: block;
+    margin: auto;
+    width: 300px;
+    margin-top: 20px;
+}
+main{
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://www.belasis.com.br/wp-content/uploads/2018/03/Novidades-Barbearia-Blogpost-Belasis-.png');
+    padding: 30px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+}
+.Principal{
+    margin: 50px;
+    text-shadow: 2px 2px 2px white;
+    box-shadow: 10px 13px 23px #000000bd;
+    background-image: linear-gradient(250deg,#000000b1,#ffffffd0);
+    margin-right: auto;
+    border-radius: 10px;
+    width: 400px;
+    height: 651px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    border-collapse: separate;
+    margin-bottom: 30px;
+}
+.Principal:hover{
+    transition-duration: .1s;
+    border-color: #7198fb;
+}
+footer img{
+    display: block;
+    margin: auto;
+    height: 300px;
+    width: 336px;   
+}
+footer{
+    box-shadow: -11px -21px 53px #000000f0;
+    padding: 30px;
+    background-color: black;
+}
+footer>h2{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 75px;
+}
+#video{
+    width: 900px;
+    margin-left: 431px;
+    margin-top: 50px;
+}
+#video iframe{
+    height: 442px;
+    width: 713px;
+    margin: auto;
+    display: block;
+}
+#barsobre{
+    font-size: 50px;
+    line-height: 14px;
+    margin-left: 241px;
+    margin-top: -181px;
+}
+hr{
+    margin-left: 90px;
+    margin: auto;
+    border-color: #00000036;
+    border-width: 1px;
+    margin-top: 80px;
+}

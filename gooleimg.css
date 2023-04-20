@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: white;
+}
+header{
+    top: -1px;
+    position: sticky;
+    margin-top:50px;
+}
+header a{
+    margin-top: -50px;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+header a:hover{
+    text-decoration: underline;
+}
+main{
+    margin-bottom: 250px;
+}
+main img{
+    width: 364px;
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+main>p{
+    margin-bottom: 30px;
+    margin-left: 1110px;
+    color: #3093fc ;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main input{
+    color: #232323de;
+    font-weight: normal;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-width: 1px;
+    padding: 30px;
+    border-color: #a5a5a55a;
+    border-style: solid;
+    width: 900px;
+    height: 3px;
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+main button{
+    box-shadow: 8px 7px 7px #000000a0;
+    border-color: #a5a5a55a;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    height: 62px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+}
+main button:hover{
+    background-color: #3093fc;
+}
+main a{
+    color: black;
+    text-decoration: none;
+}
+footer{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 79px;
+    padding: 20px;
+    background-color: #bebdbd3a;
+}
+footer>h1{
+    font-size: 25px ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e4d4dd2;
+}
+.links a{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    margin: 8px;
+    color: #4e4d4dd2;
+    text-decoration: none;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e4d4dd2;
+}
+.te{
+    height: 100px;
+    width: 400px;
+}
